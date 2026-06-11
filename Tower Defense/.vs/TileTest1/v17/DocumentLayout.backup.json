@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lewis\\Documents\\DGD_Y1_S2\\Game Mechanics I\\TiledMapWithCollision\\TiledTest1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D83A4021-F5CF-4997-A5A4-C3A564A4FAB1}|Client\\Client.vcxproj|C:\\Users\\lewis\\Documents\\DGD_Y1_S2\\Game Mechanics I\\TiledMapWithCollision\\TiledTest1\\Client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D83A4021-F5CF-4997-A5A4-C3A564A4FAB1}|Client\\Client.vcxproj|solutionrelative:Client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\lewis\\Documents\\DGD_Y1_S2\\Game Mechanics I\\TiledMapWithCollision\\TiledTest1\\Client\\main.cpp",
+              "RelativeDocumentMoniker": "Client\\main.cpp",
+              "ToolTip": "C:\\Users\\lewis\\Documents\\DGD_Y1_S2\\Game Mechanics I\\TiledMapWithCollision\\TiledTest1\\Client\\main.cpp*",
+              "RelativeToolTip": "Client\\main.cpp*",
+              "ViewState": "AgIAAF4AAAAANDMzMzMLwG4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-20T10:09:52.392Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

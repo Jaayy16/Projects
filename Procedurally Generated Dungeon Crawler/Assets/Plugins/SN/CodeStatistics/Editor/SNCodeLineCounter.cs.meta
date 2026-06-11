@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 17d44abbf71ad6744b46e697eaa84c9e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 312453
+  packageName: SN Code Line Counter Tool
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/SN/CodeStatistics/Editor/SNCodeLineCounter.cs
+  uploadId: 736879

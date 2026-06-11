@@ -1,0 +1,162 @@
+[gd_scene format=3 uid="uid://dltfjahelx7cd"]
+
+[ext_resource type="Script" uid="uid://bjl0bjpljoxtj" path="res://Main Menu/MainMenuScript.gd" id="1_2gs5d"]
+[ext_resource type="Texture2D" uid="uid://dfcxnnp4dx54g" path="res://Resources/Backgrounds/Background.png" id="1_ng0yx"]
+[ext_resource type="Texture2D" uid="uid://b5r7qwggqmp5t" path="res://Resources/Backgrounds/Background (1).png" id="2_fxvm1"]
+[ext_resource type="Texture2D" uid="uid://cv14jf88pl5cn" path="res://Resources/Backgrounds/Background (5).png" id="4_x7wbc"]
+[ext_resource type="Texture2D" uid="uid://bgrrghnkp1sph" path="res://Resources/Backgrounds/Background (19).png" id="5_n72od"]
+[ext_resource type="Texture2D" uid="uid://55fddnw33o3f" path="res://Resources/Backgrounds/Background (9).png" id="6_b61v4"]
+
+[sub_resource type="SystemFont" id="SystemFont_ng0yx"]
+
+[sub_resource type="SystemFont" id="SystemFont_fxvm1"]
+
+[sub_resource type="SystemFont" id="SystemFont_x7wbc"]
+
+[node name="MainMenu" type="Control" unique_id=1923397558]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2gs5d")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=322643015]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ng0yx")
+expand_mode = 1
+
+[node name="Greeting" type="Label" parent="." unique_id=1635093453]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.22100002
+offset_bottom = -0.20800781
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("SystemFont_ng0yx")
+theme_override_font_sizes/font_size = 64
+text = "Welcome To Mobile Games!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AdditionGame" type="Button" parent="." unique_id=2041170396]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.07700001
+anchor_top = 0.41700003
+anchor_right = 0.252
+anchor_bottom = 0.619
+offset_left = -2.70401
+offset_top = -0.21600342
+offset_right = -3.0203247
+offset_bottom = -0.11199951
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(4.415934, 4.415934, 4.415934, 1)
+theme_override_fonts/font = SubResource("SystemFont_fxvm1")
+theme_override_font_sizes/font_size = 18
+action_mode = 0
+text = "Addition 
+Game"
+icon = ExtResource("2_fxvm1")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="NumberSearchGame" type="Button" parent="." unique_id=1919722436]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.314
+anchor_top = 0.41700003
+anchor_right = 0.48900002
+anchor_bottom = 0.619
+offset_left = -2.7280273
+offset_top = -0.21600342
+offset_right = -3.0443115
+offset_bottom = -0.11199951
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(4.415934, 4.415934, 4.415934, 1)
+theme_override_fonts/font = SubResource("SystemFont_fxvm1")
+theme_override_font_sizes/font_size = 18
+action_mode = 0
+text = "Number Search
+Game"
+icon = ExtResource("4_x7wbc")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="ThreeMensMorris" type="Button" parent="." unique_id=1476215344]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.541
+anchor_top = 0.41700003
+anchor_right = 0.716
+anchor_bottom = 0.619
+offset_left = -3.2319946
+offset_top = -0.21600342
+offset_right = -3.5483398
+offset_bottom = -0.11199951
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(4.415934, 4.415934, 4.415934, 1)
+theme_override_fonts/font = SubResource("SystemFont_fxvm1")
+theme_override_font_sizes/font_size = 18
+action_mode = 0
+text = "Three Mans
+Morris"
+icon = ExtResource("5_n72od")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="HeyThatsMyFish" type="Button" parent="." unique_id=661159328]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.77300006
+anchor_top = 0.41700003
+anchor_right = 0.947
+anchor_bottom = 0.619
+offset_left = -3.4960938
+offset_top = -0.21600342
+offset_right = -2.6604004
+offset_bottom = -0.11199951
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(4.415934, 4.415934, 4.415934, 1)
+theme_override_fonts/font = SubResource("SystemFont_fxvm1")
+theme_override_font_sizes/font_size = 18
+action_mode = 0
+text = "Hey Thats
+My Fish"
+icon = ExtResource("6_b61v4")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="StatsLabel" type="Label" parent="." unique_id=802505253]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.25100002
+anchor_top = 0.915
+anchor_right = 0.79300004
+anchor_bottom = 1.0
+offset_left = -0.15200806
+offset_top = 0.079956055
+offset_right = -0.5360718
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("SystemFont_x7wbc")
+theme_override_font_sizes/font_size = 24
+
+[connection signal="pressed" from="AdditionGame" to="." method="_on_addition_game_pressed"]
+[connection signal="pressed" from="NumberSearchGame" to="." method="_on_number_search_game_pressed"]
+[connection signal="pressed" from="ThreeMensMorris" to="." method="_on_three_mens_morris_pressed"]
+[connection signal="pressed" from="ThreeMensMorris" to="." method="_on_three_mans_morris_pressed"]
+[connection signal="pressed" from="HeyThatsMyFish" to="." method="_on_hey_thats_my_fish_pressed"]

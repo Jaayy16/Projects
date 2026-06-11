@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 80f7d7c11a86aa243b0347de8d045ab3
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 312453
+  packageName: SN Code Line Counter Tool
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/SN/CodeStatistics/Readme.txt
+  uploadId: 736879

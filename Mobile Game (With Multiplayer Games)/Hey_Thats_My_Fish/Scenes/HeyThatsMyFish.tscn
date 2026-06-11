@@ -1,0 +1,197 @@
+[gd_scene format=3 uid="uid://csw55metpstx1"]
+
+[ext_resource type="Texture2D" uid="uid://55fddnw33o3f" path="res://Resources/Backgrounds/Background (9).png" id="1_i1wib"]
+[ext_resource type="Script" uid="uid://clli6l51d6v72" path="res://Hey_Thats_My_Fish/Scripts/HeyThatsMyFish.gd" id="1_jj51i"]
+[ext_resource type="Texture2D" uid="uid://b7hkgxfv1vao6" path="res://Resources/UI/BackArrow.png" id="3_fl1uy"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jj51i"]
+load_path = "res://.godot/imported/BaseTile.png-df4814e24a9a5b5849e554247fd2a036.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fl1uy"]
+load_path = "res://.godot/imported/SmallFishTile.png-f8b46b8ea481f3fa696eaa43d0fed6d9.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_os5jp"]
+load_path = "res://.godot/imported/2SmallFishTile.png-9a35d35d4aa672aca10dfc6174fd7a84.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ptdcw"]
+load_path = "res://.godot/imported/1MediumFishTile.png-30d6aa82a1c7b577482a339c1fafc9cd.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_etta5"]
+load_path = "res://.godot/imported/2MediumFishTile.png-559bc9f26d89c4f71a3bafbd4139af2d.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_eepsc"]
+load_path = "res://.godot/imported/2LargeFishTile.png-4e636a3451075bc09a529fd3b19bedcb.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4a2et"]
+load_path = "res://.godot/imported/3MediumFishTile.png-75f7c79163c1010c4713c45a05173a56.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n58uw"]
+load_path = "res://.godot/imported/3LargeFishTile.png-901c02e74d012a52f4dab57185a4ad3c.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dp8ok"]
+load_path = "res://.godot/imported/PenguinA.png-9abc350960523e36358d8158b3980cb1.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_baeaj"]
+load_path = "res://.godot/imported/PenguinB.png-b201466da65820663f2b2df9f6fb4903.ctex"
+
+[sub_resource type="SystemFont" id="SystemFont_i1wib"]
+subpixel_positioning = 0
+
+[sub_resource type="SystemFont" id="SystemFont_qnc2s"]
+
+[node name="HeyThatsMyFish" type="Control" unique_id=306822059]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jj51i")
+base_tile = SubResource("CompressedTexture2D_jj51i")
+OneSmallFish = SubResource("CompressedTexture2D_fl1uy")
+TwoSmallFish = SubResource("CompressedTexture2D_os5jp")
+OneMediumFish = SubResource("CompressedTexture2D_ptdcw")
+TwoMediumfish = SubResource("CompressedTexture2D_etta5")
+TwoLargefish = SubResource("CompressedTexture2D_eepsc")
+ThreeMediumfish = SubResource("CompressedTexture2D_4a2et")
+ThreeLargefish = SubResource("CompressedTexture2D_n58uw")
+PenguinATexture = SubResource("CompressedTexture2D_dp8ok")
+PenguinBTexture = SubResource("CompressedTexture2D_baeaj")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=170706914]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_i1wib")
+expand_mode = 1
+
+[node name="TurnLabel" type="Label" parent="." unique_id=331980134]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.035
+anchor_top = 0.91700006
+anchor_right = 0.26500002
+anchor_bottom = 0.98800004
+offset_left = -0.3199997
+offset_top = -0.21606445
+offset_right = -0.2800293
+offset_bottom = -0.22399902
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("SystemFont_i1wib")
+theme_override_font_sizes/font_size = 16
+
+[node name="PlayerNameLabel" type="Label" parent="." unique_id=1550184295]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.407
+anchor_top = 0.92
+anchor_right = 0.637
+anchor_bottom = 0.99100006
+offset_left = 0.13598633
+offset_top = -0.16003418
+offset_right = 0.17596436
+offset_bottom = -0.16802979
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("SystemFont_i1wib")
+theme_override_font_sizes/font_size = 16
+
+[node name="StatusLabel" type="Label" parent="." unique_id=193129081]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.74100006
+anchor_top = 0.91800004
+anchor_right = 0.9710001
+anchor_bottom = 0.989
+offset_left = 0.36791992
+offset_top = 0.13598633
+offset_right = 0.40795898
+offset_bottom = 0.12799072
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("SystemFont_i1wib")
+theme_override_font_sizes/font_size = 16
+
+[node name="GameIDLabel" type="Label" parent="." unique_id=2032895832]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.74100006
+anchor_top = 0.042000003
+anchor_right = 0.93700004
+anchor_bottom = 0.113000005
+offset_left = 0.36791992
+offset_top = -0.21600151
+offset_right = 0.57592773
+offset_bottom = -0.22400665
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("SystemFont_i1wib")
+theme_override_font_sizes/font_size = 16
+
+[node name="JoinGamePanel" type="Panel" parent="." unique_id=1984840063]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.19800001
+anchor_right = 0.22200002
+anchor_bottom = 0.79
+offset_top = -0.3040161
+offset_right = 0.25598145
+offset_bottom = 0.07998657
+
+[node name="JoinPanelContainer" type="VBoxContainer" parent="JoinGamePanel" unique_id=1107009353]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+tooltip_text = "GameManagement Panel
+"
+
+[node name="JoinPanelLabel" type="Label" parent="JoinGamePanel/JoinPanelContainer" unique_id=345487180]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("SystemFont_qnc2s")
+theme_override_font_sizes/font_size = 24
+text = "Join Game Panel"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="JoinGameInput" type="LineEdit" parent="JoinGamePanel/JoinPanelContainer" unique_id=929208626]
+layout_mode = 2
+placeholder_text = "Enter GameID here"
+
+[node name="JoinButton" type="Button" parent="JoinGamePanel/JoinPanelContainer" unique_id=110104053]
+layout_mode = 2
+text = "Join Game
+"
+
+[node name="CreateButton" type="Button" parent="JoinGamePanel/JoinPanelContainer" unique_id=2081602139]
+layout_mode = 2
+text = "Create Game
+"
+
+[node name="BackButton" type="Button" parent="." unique_id=1627608385]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.061000004
+anchor_bottom = 0.109000005
+offset_right = -0.27200317
+offset_bottom = -0.6320038
+icon = ExtResource("3_fl1uy")
+flat = true
+expand_icon = true
+
+[node name="Board Container" type="Container" parent="." unique_id=342367681]
+layout_mode = 0
+offset_top = 70.0
+offset_right = 1152.0
+offset_bottom = 596.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Board Container" unique_id=575837366]
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

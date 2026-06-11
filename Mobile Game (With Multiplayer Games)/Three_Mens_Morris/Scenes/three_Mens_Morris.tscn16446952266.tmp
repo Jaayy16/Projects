@@ -1,0 +1,153 @@
+[gd_scene format=3 uid="uid://3ochf5q85oen"]
+
+[ext_resource type="Texture2D" uid="uid://bgrrghnkp1sph" path="res://Resources/Backgrounds/Background (19).png" id="1_8ao5f"]
+[ext_resource type="Script" uid="uid://l3syd3eibtq8" path="res://Three_Mens_Morris/Scripts/ThreeMensMorris.gd" id="1_oxb4k"]
+[ext_resource type="Texture2D" uid="uid://cwk21uj0r5xba" path="res://Three_Mens_Morris/Resources/ThreeMensMorrisBoard.png" id="3_fw2ks"]
+
+[sub_resource type="SystemFont" id="SystemFont_vq3j3"]
+subpixel_positioning = 0
+
+[sub_resource type="SystemFont" id="SystemFont_oxb4k"]
+
+[node name="ThreeMensMorris" type="Control" unique_id=1051795485]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_oxb4k")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1663039072]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_8ao5f")
+expand_mode = 1
+
+[node name="BoardContainer" type="Container" parent="." unique_id=1799464448]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1142.0
+offset_bottom = -638.0
+grow_horizontal = 0
+
+[node name="board_sprite" type="Sprite2D" parent="." unique_id=1185065188]
+position = Vector2(576, 330)
+scale = Vector2(1.509375, 1.509375)
+texture = ExtResource("3_fw2ks")
+
+[node name="TurnLabel" type="Label" parent="." unique_id=71221721]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.016
+anchor_top = 0.026
+anchor_right = 0.246
+anchor_bottom = 0.097
+offset_left = -0.4320011
+offset_top = 0.15200043
+offset_right = -0.3919983
+offset_bottom = 0.14399719
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("SystemFont_vq3j3")
+theme_override_font_sizes/font_size = 16
+
+[node name="PlayerNameLabel" type="Label" parent="." unique_id=1133115007]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.388
+anchor_top = 0.029000001
+anchor_right = 0.61800003
+anchor_bottom = 0.1
+offset_left = 0.023986816
+offset_top = 0.20800018
+offset_right = 0.063964844
+offset_bottom = 0.19999695
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("SystemFont_vq3j3")
+theme_override_font_sizes/font_size = 16
+
+[node name="StatusLabel" type="Label" parent="." unique_id=1565776497]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.72200006
+anchor_top = 0.028
+anchor_right = 0.952
+anchor_bottom = 0.09900001
+offset_left = 0.2559204
+offset_top = -0.144001
+offset_right = 0.2960205
+offset_bottom = -0.15200806
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("SystemFont_vq3j3")
+theme_override_font_sizes/font_size = 16
+
+[node name="GameIDLabel" type="Label" parent="." unique_id=1913540130]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.056
+anchor_top = 0.91700006
+anchor_right = 0.93700004
+anchor_bottom = 0.98800004
+offset_left = -0.51200104
+offset_top = -0.21606445
+offset_right = 0.57592773
+offset_bottom = -0.22399902
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("SystemFont_vq3j3")
+theme_override_font_sizes/font_size = 16
+
+[node name="JoinGamePanel" type="Panel" parent="." unique_id=1214676404]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.19800001
+anchor_right = 0.22200002
+anchor_bottom = 0.79
+offset_top = -0.3040161
+offset_right = 0.25598145
+offset_bottom = 0.07998657
+
+[node name="JoinPanelContainer" type="VBoxContainer" parent="JoinGamePanel" unique_id=1425831115]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+tooltip_text = "GameManagement Panel
+"
+
+[node name="JoinPanelLabel" type="Label" parent="JoinGamePanel/JoinPanelContainer" unique_id=1524041770]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("SystemFont_oxb4k")
+theme_override_font_sizes/font_size = 24
+text = "Join Game Panel"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="JoinGameInput" type="LineEdit" parent="JoinGamePanel/JoinPanelContainer" unique_id=1130956380]
+layout_mode = 2
+placeholder_text = "Enter GameID here"
+
+[node name="JoinButton" type="Button" parent="JoinGamePanel/JoinPanelContainer" unique_id=1442869283]
+layout_mode = 2
+text = "Join Game
+"
+
+[node name="CreateButton" type="Button" parent="JoinGamePanel/JoinPanelContainer" unique_id=502595661]
+layout_mode = 2
+text = "Create Game
+"
+
+[connection signal="pressed" from="JoinGamePanel/JoinPanelContainer/JoinButton" to="." method="_on_join_button_pressed"]
+[connection signal="pressed" from="JoinGamePanel/JoinPanelContainer/CreateButton" to="." method="_on_create_game_pressed"]

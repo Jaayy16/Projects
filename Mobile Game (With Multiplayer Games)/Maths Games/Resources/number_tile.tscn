@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://wibxcodfui0s"]
+
+[ext_resource type="Script" uid="uid://b1ila7cve5gdq" path="res://Maths Games/Resources/number_tile.gd" id="1_2g7ip"]
+[ext_resource type="Texture2D" uid="uid://bana2ndek432t" path="res://Resources/NumberFrame.png" id="2_cpg87"]
+
+[sub_resource type="SystemFont" id="SystemFont_vrkry"]
+
+[node name="NumberTile" type="Control" unique_id=618957599 node_paths=PackedStringArray("sprite_2d", "num_label")]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 3
+anchor_right = 0.087000005
+anchor_bottom = 0.15400001
+offset_right = -20.224007
+offset_bottom = -19.792007
+script = ExtResource("1_2g7ip")
+sprite_2d = NodePath("Sprite2D")
+num_label = NodePath("Sprite2D/NumLabel")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1380899692]
+position = Vector2(50, 50.140003)
+scale = Vector2(0.31249997, 0.311625)
+texture = ExtResource("2_cpg87")
+
+[node name="NumLabel" type="Label" parent="Sprite2D" unique_id=1680674218]
+anchors_preset = -1
+anchor_left = 0.15900001
+anchor_top = 0.15900001
+anchor_right = 0.837
+anchor_bottom = 0.837
+offset_left = -159.88
+offset_top = -159.88
+offset_right = -159.84
+offset_bottom = -159.84
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("SystemFont_vrkry")
+theme_override_font_sizes/font_size = 128
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true

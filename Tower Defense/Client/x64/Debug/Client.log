@@ -1,0 +1,46 @@
+﻿  EnemyManager.cpp
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.h(62,50): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'EnemyManager.cpp')
+  
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\TowerManager.h(52,41): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+  (compiling source file 'EnemyManager.cpp')
+  
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(129,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(289,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(289,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(289,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(289,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(291,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(291,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(291,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(291,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(293,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(293,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(293,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.cpp(293,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  GameManager.cpp
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.h(62,50): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'GameManager.cpp')
+  
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\TowerManager.h(52,41): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+  (compiling source file 'GameManager.cpp')
+  
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\GameManager.cpp(120,62): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  TowerManager.cpp
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\TowerManager.h(52,41): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+  (compiling source file 'TowerManager.cpp')
+  
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.h(62,50): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'TowerManager.cpp')
+  
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\TowerManager.cpp(239,85): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\EnemyManager.h(62,50): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\Client\TowerManager.h(52,41): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Client.vcxproj -> C:\Users\lewis\Documents\DGD_Y1_S2\Game Mechanics I\Game_Mechanics_Home_Assignment_Lewis_Junior_Cutajar_DGD_6.1A\Tower Defense\x64\Debug\Client.exe
